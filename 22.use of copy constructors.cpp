@@ -23,7 +23,5 @@ int main()
     n2.Display();
     Number n3(n2);
     n3.Display();
-
-
 return 0;
 }
