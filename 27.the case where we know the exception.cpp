@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
 int a,b;
-float result;
+float result,o;
 cout<<"enter the value of a and b"<<endl;
 cin>>a>>b;
 try{
     if(b<0){
-        throw result;
+        throw o;
     }
     if(b==0){
         throw b;
