@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 union money {
+    //subesh
     char c;
     int n;
     
