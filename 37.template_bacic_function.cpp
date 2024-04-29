@@ -6,10 +6,14 @@ T GetMax(T a,T b){
     result = (a>b)?a:b;
     return result;
 }
+// int GetMax(int a,int b){  //if exact match is found the function will go with the 
+                             //exact match  in case of overloading
+//     return 0;
+// }
 int main(){
     int i=5; int s=7;
     float j=7.7; float k=8.3;
-    cout<<GetMax<int>(i,s)<<endl;
+    cout<<GetMax(i,s)<<endl;
     cout<<GetMax(j,k);
     return 0;
 }
