@@ -1,8 +1,8 @@
 #include<iostream>
 #include<list>
 using namespace std;
+    list<int> list1;
 void dispaly( list<int> &lst){
-
     list<int> ::iterator iter = lst.begin();
     for(int i=0;i<lst.size();i++){
             cout<<*iter<<endl;
@@ -10,8 +10,9 @@ void dispaly( list<int> &lst){
     }
     cout<<endl;
 }
+
 int main(){
-    list<int> list1;
+
     list<int> list2(6);
     list1.push_back(5);
     list1.push_back(6);
@@ -19,6 +20,7 @@ int main(){
     list1.push_back(8);
     list1.push_back(9);
     list1.push_back(10);
+
 
   /// removing elements from the list
  
