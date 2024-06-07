@@ -17,7 +17,7 @@ bool check(string inp){
 void dispaly( list<char> &lst){
     list<char> ::iterator iter = lst.begin();
     for(int i=0;i<lst.size();i++){
-            cout<<*iter<<endl;
+            cout<<*lst<<endl;
             iter++;
     }
     cout<<endl;

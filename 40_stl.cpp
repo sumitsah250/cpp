@@ -25,8 +25,15 @@ int main(){
     display(vec1);
     vector<float> :: iterator iter = vec1.begin();
     vec1.insert(iter+1,566);
+
+
     
-    display(vec1);
+    // display(vec1);
+    // string s= 12+"";
+    vector<int> s = {1,2,3,4,5,4,1,3,2};
+    display(s);
+    s.erase(2);
+    display(s);
     
 
 

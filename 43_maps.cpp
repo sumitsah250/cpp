@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     map<string,int > marksMap;
-    marksMap["sumit"] =99;
+    marksMap["sumit"] =99,3;
     marksMap["harry"]=12;
     marksMap["aaditya"]=66;
     marksMap.insert({"sumi",123});
