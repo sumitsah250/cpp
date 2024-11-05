@@ -2,9 +2,9 @@
 #include<vector>
 using namespace std;
 template<class T>
-void display(vector<T> &v){
+void display(vector<T> & v){
     for(int i=0;i<v.size();i++){
-        cout<<v[i]<<" ";
+        // cout<<v[i]<<" ";
         cout<<v.at(i)<<" ";
     }
     cout<<endl;
@@ -32,8 +32,10 @@ int main(){
     // string s= 12+"";
     vector<int> s = {1,2,3,4,5,4,1,3,2};
     display(s);
-    s.erase(2);
+    vector<int> :: iterator iter1 = s.begin();
+    s.erase(iter1+2);
     display(s);
+    cout<<s.back()<<endl;
     
 
 
