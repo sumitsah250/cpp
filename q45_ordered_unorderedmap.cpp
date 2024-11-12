@@ -27,8 +27,9 @@ int main(){
 
     cout<<m.size()<<endl;
 
-    //fiding if the element is or is not in list
+    //fiding if the element is or is not in list  
     cout<<m.count("love")<<endl;   //0 if doesnt exist and 1 if exist
+      cout<<"the count is "<<m.count("aadi")<<endl; 
 
 
     //first traversing method
@@ -43,6 +44,13 @@ int main(){
       cout<<it->first<<" "<<it->second<<endl;
       it++;
     }
+  int j=0;
+    for(int i=0;i<10;++i){
+      ++j;
+      cout<<j;
+
+    }
+
 
 
     return 0;
